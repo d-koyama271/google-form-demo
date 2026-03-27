@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Googleフォーム埋め込みデモ</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 24px;
+      background: #f7f7f7;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 24px;
+      border-radius: 12px;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    .form-wrap {
+      position: relative;
+      width: 100%;
+      min-height: 1000px;
+    }
+    iframe {
+      width: 100%;
+      min-height: 1000px;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>お問い合わせフォーム デモ</h1>
+    <p>Googleフォームを埋め込んだデモページです。</p>
+
+    <div class="form-wrap">
+      <!-- ここにGoogleフォームのEmbed HTMLを貼る -->
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3_cCUd7Wrv4BesjpuEfK__INAWVlAgHlpjbco-wa7qkVpxg/viewform?embedded=true" width="640" height="384" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+    </div>
+  </div>
+</body>
+</html>
