@@ -4,63 +4,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Googleフォームデモ</title>
+  <title>お問い合わせページ</title>
   <style>
     body {
       margin: 0;
-      padding: 24px;
+      padding: 30px 24px;
       font-family: sans-serif;
-      background: #f3f4f6;
-      color: #222;
+      background: #000;
+      color: #fff;
     }
 
     .container {
-      max-width: 960px;
+      max-width: 900px;
       margin: 0 auto;
-      background: #ffffff;
-      padding: 24px;
-      border-radius: 12px;
-      box-sizing: border-box;
     }
 
     h1 {
       margin: 0 0 12px;
       font-size: 28px;
-    }
-
-    p {
-      margin: 0 0 16px;
-    }
-
-    .form-section {
-      margin-top: 32px;
-      padding: 20px;
-      background: #eef6ff;
-      border-radius: 12px;
-    }
-
-    .form-section-title {
-      margin: 0 0 8px;
-      font-size: 18px;
       font-weight: bold;
     }
 
+    .form-section {
+      padding: 16px;
+      background: #4d9822;
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+
+    .form-section-title {
+      position: relative;
+      margin-bottom: 16px;
+      font-weight: 900;
+      font-size: 220%;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+
     iframe {
-      width: 100%;
-      min-height: 1000px;
-      border: 0;
+      background: #000;
+      border-radius: 8px;
+      overflow: hidden;
       display: block;
+      width: 100%;
+      min-height: 900px;
+      border: 0;
     }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <div class="form-section">
-      <h2 class="form-section-title">Googleフォームデモ</h2>
+    <h1>Googleフォームデモ</h1>
 
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3_cCUd7Wrv4BesjpuEfK__INAWVlAgHlpjbco-wa7qkVpxg/viewform?embedded=true" width="640" height="384" frameborder="0" marginheight="0"
-        marginwidth="0">読み込んでいます…</iframe>
+    <div class="form-section">
+      <div class="form-section-title">CONTACT</div>
+
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3_cCUd7Wrv4BesjpuEfK__INAWVlAgHlpjbco-wa7qkVpxg/viewform?embedded=true">読み込んでいます…</iframe>
     </div>
   </div>
 </body>
